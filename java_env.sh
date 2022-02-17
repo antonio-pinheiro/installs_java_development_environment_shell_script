@@ -9,7 +9,8 @@ instalar_spring(){
     mkdir -p /home/$user/Documents/springtoolsuite4
     tar -xvzf spring-tool*.tar.gz -C /home/$user/Documents/springtoolsuite4
     echo "export PATH=$PATH:/home/$user/Documents/springtoolsuite4/sts-4.13.1.RELEASE" >> /home/$user/.bashrc
-    source /home/$user/.bashrc
+    cd /home/$user
+    source .bashrc
     rm spring-tool-suite*
     echo "Spring Tool Suite 4 instalado com sucesso!"
     echo "Execute através do comando SpringToolSuite4 no terminal!"
