@@ -1,4 +1,4 @@
-# Kernel Compiler
+# Java Environment Creator
 
 O script permite a instalação e criação de um ambiente de desenvolvimento Java no Debian de forma automatizada e centralizada.
 
